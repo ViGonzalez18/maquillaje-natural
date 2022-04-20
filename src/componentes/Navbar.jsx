@@ -7,7 +7,7 @@ const Navbar = () => {
       <div className="container-fluid">
         <a className="navbar-brand" href="#">
           Maquillaje Natural
-          <CartWidget/>
+         
         </a>
         
         <button
@@ -74,8 +74,11 @@ const Navbar = () => {
               >
                
               </a>
+              
             </li>
           </ul>
+          <CartWidget/>
+          
           <form className="d-flex">
             <input
               className="form-control me-2"
