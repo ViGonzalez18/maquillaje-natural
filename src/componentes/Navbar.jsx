@@ -1,4 +1,5 @@
 import React from "react";
+import CartWidget from "./CartWidget";
 
 const Navbar = () => {
   return (
@@ -6,7 +7,9 @@ const Navbar = () => {
       <div className="container-fluid">
         <a className="navbar-brand" href="#">
           Maquillaje Natural
+          <CartWidget/>
         </a>
+        
         <button
           className="navbar-toggler"
           type="button"
