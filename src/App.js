@@ -10,9 +10,9 @@ function App() {
   return (
    <><Navbar />
    <ItemListContonteiner text="Pronto nuevos productos" />
-   <Contador stock="5" initial="1"/>
+   
    <div>
-     <Contenido/>
+     {/* <Contenido/> */}
    </div>
    <Footer /></>
   );
