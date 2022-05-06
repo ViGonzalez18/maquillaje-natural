@@ -78,7 +78,7 @@ const Navbar = () => {
               
             </li>
           </ul>
-          <CartWidget/>
+          <CartWidget />
           
           <form className="d-flex">
             <input

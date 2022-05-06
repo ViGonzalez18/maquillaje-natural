@@ -8,7 +8,7 @@ const ItemListContonteiner = ( { text } ) => {
   const [productos, setProductos]= useState([])
 
   const onAdd= (cantidad) => {
-    console.log('Seleccionaste : ${cantidad}')
+    console.log(`Seleccionaste : ${cantidad}`)
   }
 
 
