@@ -1,16 +1,14 @@
-import React from 'react'
+import React from 'react';
+import brocha from '../assets/img/brocha.jpg'
 
-const Item = () => {
+const Item = ({title, descripcion, id, imagen}) => {
   return (
     <>
-    <div className="card" style="width: 18rem;">
-  <img src="..." className="card-img-top" alt="..."/>
-  <div className="card-body">
-    <h5 className="card-title">Card title</h5>
-    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" className="btn btn-primary">Go somewhere</a>
-  </div>
-</div>
+    
+    <h1>{title}</h1>
+    <p>{descripcion}</p>
+    <h4>{id}</h4>
+    <img src={imagen} alt="imagen" style={{width:"20%", display:"flex"}}/>
     </>
   )
 }

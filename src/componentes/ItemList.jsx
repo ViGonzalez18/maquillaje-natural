@@ -3,13 +3,21 @@ import Item from "./Item";
 
 const ItemList = ({productos}) => {
   return (
-    <div>
-      {productos.length > 0 ? (
-        productos.map((producto) => <Item />)
-      ) : (
-        <h1>Cargando...</h1>
-      )}
-    </div>
+    <>
+    {
+    productos.length > 0 ? productos.map(producto => (
+      <Item
+      title={producto.nombre}
+      descripcion={producto.descripcion}
+      id={producto.id}
+      imagen={producto.img}
+      />
+
+    )): <h4>Cargando...</h4>
+    }
+    </>
+    
+      
   );
 };
 
